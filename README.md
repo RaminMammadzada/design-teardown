@@ -55,9 +55,9 @@ To get a local copy  and to set it up and running follow these simple example st
 
 👤 **Alexis Zambrano**
 
-- Github: [@umairarshadbutt](https://github.com/umairarshadbutt)
-- Twitter: [@its_UmairArshad](https://twitter.com/its_UmairArshad)
-- Linkedin: [umair-arshad-butt](https://www.linkedin.com/in/umair-arshad-butt/)
+- Github: [@umairarshadbutt]()
+- Twitter: [@its_UmairArshad]()
+- Linkedin: [umair-arshad-butt]()
 
 
 
