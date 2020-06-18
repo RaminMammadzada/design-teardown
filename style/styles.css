@@ -108,4 +108,24 @@ header {
 	margin-right: 40px;
 }
 
+.latest-articles {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.latest-articles > div {
+	border-style: ridge;
+	width: 100%;
+	height: 700px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (max-width:750px) { 
+	.latest-articles{
+		display: grid;
+		grid-template-columns: 1fr;
+		} }
+
 
