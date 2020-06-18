@@ -53,7 +53,7 @@ To get a local copy  and to set it up and running follow these simple example st
 - Twitter: [@raminmammadzada](https://twitter.com/raminmammadzada)
 - Linkedin: [raminmammadzada](https://linkedin.com/raminmammadzada) 
 
-👤 **Umair Arshad**
+👤 **Alexis Zambrano**
 
 - Github: [@umairarshadbutt](https://github.com/umairarshadbutt)
 - Twitter: [@its_UmairArshad](https://twitter.com/its_UmairArshad)
