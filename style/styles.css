@@ -6,7 +6,7 @@ body {
 
 header {
 	background: #757575;
-	
+	width: 100%
 }
 
 .main-logo {
@@ -18,9 +18,11 @@ header {
 .navbar {
 	display: flex;
 	flex-direction: row;
-	padding:20px;
+	padding:10px;
 	align-items: center;
 	align-content: center;
+	justify-content: space-between;
+	width: 100%;
 }
 
 .navbar-button {
@@ -61,9 +63,19 @@ header {
 	padding-right: 10px;	
 }
 .inputWhite {
-	width: 250px;
+	width: 100%;
 	background: white;
+	border-radius: 11px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: row;
 }
+
+.fa{
+	margin:20px;
+}
+
 .more-button:hover {
 	background:  rgb(54, 52, 52);
 }
@@ -86,9 +98,14 @@ header {
 	padding: 20px;
 	border-radius: 11px;
 	width:200px;
-	
+	border: none;
+}
+.searchForm:focus{
+	outline: none;
 }
 
 .formContainer {
 	margin-right: 40px;
 }
+
+
