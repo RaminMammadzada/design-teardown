@@ -53,11 +53,11 @@ To get a local copy  and to set it up and running follow these simple example st
 - Twitter: [@raminmammadzada](https://twitter.com/raminmammadzada)
 - Linkedin: [raminmammadzada](https://linkedin.com/raminmammadzada) 
 
-👤 **Alexis Zambrano**
+👤 **Pablo Alexis Zambrano Coral**
 
-- Github: [@umairarshadbutt]()
-- Twitter: [@its_UmairArshad]()
-- Linkedin: [umair-arshad-butt]()
+- Github: [@Alexoid1](https://github.com/Alexoid1)
+- Twitter: [@pablo_acz](https://twitter.com/pablo_acz)
+- Linkedin: [linkedin](https://www.linkedin.com/in/pablo-alexis-zambrano-coral-7a614a189/)
 
 
 
