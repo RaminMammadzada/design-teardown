@@ -312,3 +312,54 @@ header {
   text-shadow: #1F2C43;
 
 }
+
+.shippingNow {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 100px;
+	background: rgb(27,112,186);
+	background: linear-gradient(180deg, rgba(27,112,186,1) 0%, rgba(68,152,217,1) 100%);
+}
+
+.shippingNow #element1 {
+	color: aliceblue;
+	padding-bottom: 20px;
+}
+
+.shippingNow #element2 {
+	color: aliceblue;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 3em;
+}
+
+.shippingNow #element3 {
+	color: aliceblue;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 3em;
+	padding-bottom: 30px;
+}
+
+.shippingNow #element4 {
+	color: aliceblue;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 1em;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.shippingNow #element5 a {
+	background: #FFF;
+	color: #277DCC;
+	padding-top: 1px;
+	padding-bottom: 1px; 
+	padding: 30px;
+	margin-right: 25px;
+	margin-left: 25px;
+	font-size: 20px;
+	border-radius: 12px;
+}
