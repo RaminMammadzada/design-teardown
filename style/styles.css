@@ -212,4 +212,61 @@ header {
 	
 }
 
+.wholeMembership{
+	background: #1F2C43;
+}
 
+.membership{
+	background: #1F2C43;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap-reverse;
+	justify-content: space-between;
+	align-items: center;
+	height: 500px;
+	color: white;
+	font-size: 22px;
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.membershipText{
+	flex: 30%;
+	padding: 40px;
+}
+
+.membershipImage{
+	flex: 30%;
+	justify-content: start;
+	transform: rotate(-15deg);
+	transform-origin: left bottom;
+	
+}
+
+.membershipImage img {
+	transform: scale(0.6);
+}
+
+.membershipImage:hover{
+	transform: rotate(0deg);
+}
+
+.membership p a { color: #FFF; }
+
+.membershipButton {
+	background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  font-size: 100%;
+  text-shadow: #1F2C43;
+
+}
