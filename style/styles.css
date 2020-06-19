@@ -201,13 +201,14 @@ header {
 	grid-template-columns: 1fr 1fr 1fr;
 	background: #f6f3f2;
 	padding-top: 50px;
-	
 	font-family: 'Balsamiq Sans', cursive;
 }
 .articlesDes {
 	width:80%;
-	
 	transition: all .2s ease-in-out;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .articlesDes h2 {
@@ -217,7 +218,6 @@ header {
 .articlesDes p {
 	font-size:25px;
 	color: grey;
-	
 }
 
 .articlesDes a {
@@ -226,12 +226,20 @@ header {
 }
 
 .redArrow {
-	background: blue;
+	text-align: center;
 	width:150px;
 	color: rgb(158, 19, 19);
 	padding-bottom: 30px;
 	padding-top:-20px;
-	padding-left:20px
+	padding-left:20px;
+}
+
+.articlesDes:hover .redArrow{
+	background: #277DCC
+}
+
+.articlesDes:hover .redArrow .fa{
+	color:  white;
 }
 
 .articlesDes:hover {
@@ -240,6 +248,9 @@ header {
 }
 
 .textContainer {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
 	margin: 40px;
 }
 
