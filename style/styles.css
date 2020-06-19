@@ -1,3 +1,16 @@
+.font-balmasiq {
+	font-family: 'Balsamiq Sans', cursive;
+}
+
+.font-tangerine {
+	font-family: 'Tangerine', cursive;
+}
+
+em {
+	font-family: 'Tangerine', cursive;
+	font-size: 2.2em;
+}
+
 body {
 	margin: 0;
 }
@@ -125,15 +138,40 @@ header {
 	padding-top: 20px;
 	padding-left: 80px;
 }
+
+.profileImageDiv{
+	margin-top: 20px;
+}
+
 .profileImg {
 	width:60px;
 	border: 5px solid white;
 	border-radius: 11px;
-	transform: rotate(-12deg);
+	vertical-align: middle;
+	box-shadow:  0px 20px 40px 10px rgb(54, 52, 52, 0.8);
+	transform: rotate(-15deg);
+	transform-origin: left bottom;
 }
+
+.profileImg:hover{
+	transform: rotate(0deg);
+	box-shadow:  0px 20px 500px 10px rgb(54, 52, 52, 0.0);
+}
+
+.profileName {
+	font-size: 1.4em;
+	text-align: center;
+}
+
 .imgContainer {
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
+}
+.imgContainer div {
+	padding: 10px;
+	text-align: center;
+
 }
 
 @media (max-width:750px) { 
