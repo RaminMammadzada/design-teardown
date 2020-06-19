@@ -13,6 +13,7 @@ em {
 
 body {
 	margin: 0;
+	max-width:1800px
 }
 
 /*979797*/
@@ -175,8 +176,33 @@ header {
 .imgContainer div {
 	padding: 10px;
 	text-align: center;
-
 }
+
+.spanContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.spanContainer span {
+	margin-right: 40px;
+}
+
+.fa-long-arrow-right {
+	margin-top: 70px;
+	margin-left: 0px;
+}
+.inline {
+	display: inline-block;
+	font-size: 12px;
+}
+ .articlesContainer {
+	 display: grid;
+	 grid-template-columns: 1fr 1fr 1fr;
+	 background: #f6f3f2;
+ }
+
+
 
 @media (max-width:750px) { 
 	.latest-articles{
