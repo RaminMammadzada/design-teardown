@@ -128,15 +128,19 @@ header {
 }
 
 .latest-articles > div {
-	
 	width: 100%;
 	height: 700px;
 	display: flex;
 	flex-direction: column;
-	justify-content: start;
+	justify-content: center;
 	align-items: start;
 	padding-top: 20px;
 	padding-left: 80px;
+}
+
+.latest-articles > div > h1{
+	font-size: 40px;
+	width:70%;
 }
 
 .profileImageDiv{
