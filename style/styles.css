@@ -197,10 +197,52 @@ header {
 	font-size: 12px;
 }
  .articlesContainer {
-	 display: grid;
-	 grid-template-columns: 1fr 1fr 1fr;
-	 background: #f6f3f2;
- }
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	background: #f6f3f2;
+	padding-top: 50px;
+	
+	font-family: 'Balsamiq Sans', cursive;
+}
+.articlesDes {
+	width:80%;
+	
+	transition: all .2s ease-in-out;
+}
+
+.articlesDes h2 {
+	font-size:35px;
+}
+
+.articlesDes p {
+	font-size:25px;
+	color: grey;
+	
+}
+
+.articlesDes a {
+	color: rgb(71, 68, 68);
+	margin-left: 5px;
+}
+
+.redArrow {
+	background: blue;
+	width:150px;
+	color: rgb(158, 19, 19);
+	padding-bottom: 30px;
+	padding-top:-20px;
+	padding-left:20px
+}
+
+.articlesDes:hover {
+	background: white;
+	transform: scale(1.05); 	
+}
+
+.textContainer {
+	margin: 40px;
+}
+
 
 
 
