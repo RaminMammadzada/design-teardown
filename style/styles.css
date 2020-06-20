@@ -208,9 +208,10 @@ header {
 	justify-content: center;
 }
 .articlesContainer {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	max-width: 1785px;
+	display: grid;	
+	grid-template-columns: repeat(auto-fit, minmax(405px,1fr));
+	grid-auto-columns: 890px;
+	width:1850px;	
 	padding-top: 50px;
 	font-family: 'Balsamiq Sans', cursive;
 }
@@ -219,7 +220,7 @@ header {
 	transition: all .2s ease-in-out;
 	display: flex;
 	flex-direction: column;
-	width: 445px;
+	
 	justify-content: space-between;
 	padding:30px 30px 0 30px;
 }
@@ -227,7 +228,7 @@ header {
   width:80%;
   display: flex;
   flex-direction: column;
-  width: 445px;
+ 
   justify-content: space-between;
   padding:70px 70px 0 70px;
   height: 790px;
@@ -249,9 +250,7 @@ header {
 	text-align: center;
 }
 
-.gramarly img{
-  
-}
+
 
 .gramarly p {
   display: block;
@@ -269,7 +268,11 @@ header {
   color: white;
 }
 
-
+.gramarlyPtop {
+	display:block;
+	text-align: center;
+	font-size: 13px;
+}
 
 .articlesDes h2 {
   font-size:35px;
@@ -292,6 +295,53 @@ header {
 	padding-bottom: 30px;
 	padding-top:-20px;
 	padding-left:20px;
+}
+.smashingAdver{
+	display: block;
+	text-align: center;
+}
+.smashingContain {
+	background-color: #555555;
+	height: 628px;
+	width: 825px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	color: white;
+}
+.smashingContain a {
+	text-decoration: none;
+	color: white;
+}
+
+.smashinHeader{	
+	font-size: 58px;
+}
+
+.smashingPara {
+  font-size: 25px;
+  width: 500px;
+  margin-left: 150px;
+}
+.smashBconta {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+.smashingButton {
+	width: 400px;
+	height: 100px;
+	background: white;
+	font-size: 35px;
+	color: #277DCC;
+	border-radius: 25px;
+	
+}
+
+
+.catSmash {
+  width: 245px;
 }
 
 .articlesDes:hover .redArrow{
@@ -446,11 +496,11 @@ header {
 	font-size: 20px;
 	border-radius: 12px;
 }
-@media (min-width: 1500px) {
+/* @media (min-width: 1500px) {
 	.articlesContainer {
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 	}
-}
+} */
 @media (min-width: 1910px) {
 	.latest-articles {
 		grid-template-columns: 1fr 1fr 1fr;
