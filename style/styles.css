@@ -196,9 +196,10 @@ header {
 	display: inline-block;
 	font-size: 12px;
 }
- .articlesContainer {
-	display: grid;
+.articlesContainer {
+	display: flex;
 	grid-template-columns: 1fr 1fr 1fr;
+	flex-flow: row wrap;
 	background: #f6f3f2;
 	padding-top: 50px;
 	font-family: 'Balsamiq Sans', cursive;
@@ -208,7 +209,9 @@ header {
 	transition: all .2s ease-in-out;
 	display: flex;
 	flex-direction: column;
+	width: 445px;
 	justify-content: space-between;
+	padding:70px 70px 0 70px;
 }
 
 .articlesDes h2 {
@@ -235,7 +238,11 @@ header {
 }
 
 .articlesDes:hover .redArrow{
-	background: #277DCC
+	background: #277DCC;
+}
+
+.articlesDes:hover .textContainer{
+	color: hsl(5, 65%, 51%); 
 }
 
 .articlesDes:hover .redArrow .fa{
