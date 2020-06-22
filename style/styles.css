@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 .font-balmasiq {
   font-family: "Balsamiq Sans", cursive;
 }
@@ -23,8 +24,6 @@ em {
 body {
   margin: 0;
 }
-
-/*979797*/
 
 header {
   background: #757575;
@@ -83,6 +82,7 @@ header {
   margin-right: 20px;
   padding-right: 10px;
 }
+
 .inputWhite {
   width: 100%;
   background: white;
@@ -120,6 +120,7 @@ header {
   width: 200px;
   border: none;
 }
+
 .searchForm:focus {
   outline: none;
 }
@@ -185,6 +186,7 @@ header {
   flex-direction: row;
   justify-content: center;
 }
+
 .imgContainer div {
   padding: 10px;
   text-align: center;
@@ -224,6 +226,7 @@ header {
   padding-top: 50px;
   font-family: "Balsamiq Sans", cursive;
 }
+
 .articlesDes {
   transition: all 0.2s ease-in-out;
   display: flex;
@@ -231,6 +234,7 @@ header {
   justify-content: space-between;
   padding: 30px 30px 0 30px;
 }
+
 .articlesGra {
   width: 80%;
   display: flex;
@@ -239,6 +243,7 @@ header {
   padding: 70px 70px 0 70px;
   height: 790px;
 }
+
 .gramarly {
   width: 326px;
   height: 300px;
@@ -262,6 +267,7 @@ header {
   margin-left: 40px;
   font-size: 19px;
 }
+
 .gramarButton {
   background: rgb(44, 216, 150);
   width: 150px;
@@ -299,14 +305,16 @@ header {
   padding-top: -20px;
   padding-left: 20px;
 }
+
 .smashingAdver {
   grid-column: span 2; /* with this the element can set a different width from the other elements */
   display: block;
   text-align: center;
   border-radius: 25px;
 }
+
 .smashingContain {
-  background-color: #555555;
+  background-color: #555;
   height: 628px;
   border-radius: 25px;
   display: flex;
@@ -315,6 +323,7 @@ header {
   color: white;
   padding: 0 8%;
 }
+
 .smashingContain a {
   text-decoration: none;
   color: white;
@@ -336,6 +345,7 @@ header {
   align-items: center;
   flex-direction: row;
 }
+
 .smashingButton {
   width: 400px;
   height: 100px;
@@ -353,6 +363,7 @@ header {
   color: #277dcc;
   border-radius: 25px;
 }
+
 .catSmash {
   width: 245px;
 }
@@ -367,8 +378,9 @@ header {
   text-align: center;
   border-radius: 25px;
 }
+
 .smashingContain2 {
-  background-color: #555555;
+  background-color: #555;
   height: 628px;
   border-radius: 25px;
   display: flex;
@@ -542,6 +554,7 @@ header {
   font-size: 20px;
   border-radius: 12px;
 }
+
 @media (max-width: 1600px) {
   .smashingAd2 {
     grid-column: span 3;
@@ -550,6 +563,7 @@ header {
     grid-template-columns: 1fr 1fr;
   }
 }
+
 @media (min-width: 1910px) {
   .latest-articles {
     grid-template-columns: 1fr 1fr 1fr;
@@ -744,7 +758,6 @@ header {
   margin-top: 60px;
   background-color: #d33b2b;
   color: white;
-  /* text-align: left; */
 }
 
 .featuredBook {
@@ -804,7 +817,6 @@ header {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 26px;
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 12px;
@@ -893,7 +905,6 @@ header {
 
 .blu {
   height: 628px;
-  border-radius: 25px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -911,6 +922,7 @@ header {
   text-decoration: none;
   color: white;
 }
+
 .smashinHeader2 {
   font-size: 58px;
   text-align: left;
@@ -921,11 +933,9 @@ header {
   text-align: center;
   font-size: 25px;
 }
+
 .formFinal {
   text-align: left;
-}
-
-.formFinalContainer {
 }
 
 .formFinal input {
