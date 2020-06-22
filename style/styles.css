@@ -897,3 +897,19 @@ footer {
 	vertical-align: middle;
 	padding: 0;
 }
+
+.upButton {
+	float: right;
+	background: #885B56;
+	transform: rotate(-15deg);
+	transform-origin: left bottom;
+	border-radius: 12px;
+	color: #FFF;
+	margin: 1%;
+}
+
+.upButton:hover{
+	float: right;
+	background: #333;
+	transform: rotate(0deg);
+}
