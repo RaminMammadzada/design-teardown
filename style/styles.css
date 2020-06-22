@@ -514,3 +514,16 @@ header {
 
 	}
 }
+
+.shippingNowImage{
+	margin-top: 170px;
+	width: 40%;
+	flex: 30%;
+	justify-content: start;
+	
+}
+
+.shippingNowImage img {
+	transform: scale(1.6);
+}
+
