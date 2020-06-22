@@ -368,7 +368,7 @@ header {
 }
 
 .smashingAd2 {
-	grid-column:span 3;  /* with this the element can set a different width from the other elements */
+	grid-column:span 2;  /* with this the element can set a different width from the other elements */
 	display: block;
 	text-align: center;
 	border-radius: 25px;
