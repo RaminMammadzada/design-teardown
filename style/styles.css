@@ -207,16 +207,19 @@ header {
 	margin-top: 70px;
 	margin-left: 0px;
 }
+
 .inline {
 	display: inline-block;
 	font-size: 12px;
 }
+
 .wholeArticlesSection {
 	background: #f6f3f2;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 }
+
 .articlesContainer {
 	display: grid;	
 	grid-template-columns: repeat(auto-fit, minmax(405px,1fr));
@@ -241,7 +244,7 @@ header {
   height: 790px;
 }
 .gramarly {
-  width: 366px;
+  width: 326px;
   height: 300px;
   background: hsl(166, 65%, 82%);
   border-radius: 11px;
@@ -729,6 +732,13 @@ header {
 	color: #333;
 	text-decoration: none;
 	border-bottom: #D33B2C 0.225em solid;
+}
+
+.seeAllLatestArticles {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 100px;
 }
 
 .more-content-button:hover {
