@@ -147,6 +147,16 @@ header {
   padding-left: 80px;
 }
 
+.linkTexts h1 {
+  margin-bottom: 20px;
+  font-size: 34px;
+}
+
+.featuredBookText h1 {
+  font-size: 34px;
+  margin-bottom: 40px;
+}
+
 .latest-articles > div > h1 {
   font-size: 40px;
   width: 70%;
@@ -490,12 +500,6 @@ header {
   width: 26%;
 }
 
-.footerMenuItems p a {
-  color: #fff;
-  font-size: 1rem;
-  line-height: 2;
-}
-
 .footerMenuItems a {
   font-size: 1.5rem;
   color: #fff;
@@ -503,16 +507,35 @@ header {
   text-decoration: none;
 }
 
-.footerMenuItems a:hover {
-  color: #333;
-}
-
 .li-copyright a {
   color: #fff;
 }
 
+.footerMenuItems p a {
+  color: #fff;
+  font-size: 1rem;
+  line-height: 2;
+}
+
 .membership p a {
   color: #fff;
+}
+
+.personOfWeek h4 a {
+  color: #1374c8;
+}
+
+.linkTexts h2 a {
+  color: #666;
+}
+
+.linkTexts h3 a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footerMenuItems a:hover {
+  color: #333;
 }
 
 .membershipButton {
@@ -537,7 +560,7 @@ header {
   align-items: center;
   padding: 100px;
   background: rgb(27, 112, 186);
-  background: linear-gradient(180deg,rgba(27, 112, 186, 1) 0%,rgba(68, 152, 217, 1) 100%);
+  background: linear-gradient(180deg, rgba(27, 112, 186, 1) 0%, rgba(68, 152, 217, 1) 100%);
 }
 
 .shippingNow #element1 {
@@ -573,13 +596,13 @@ header {
   .smashingAd2 {
     grid-column: span 3;
   }
+
   .articlesContainer2 {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media (min-width: 1910px) {
-
   .latest-articles {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -633,7 +656,7 @@ header {
   border: 5px solid #d33b2b;
   border-radius: 11px;
   vertical-align: middle;
-  box-shadow: 0px 20px 40px 10px rgb(54, 52, 52, 0.8);
+  box-shadow: 0 20px 40px 10px rgb(54, 52, 52, 0.8);
   transform: rotate(-15deg);
   transform-origin: left bottom;
 }
@@ -670,20 +693,6 @@ header {
 .linkTexts h2 {
   color: #666;
   margin-bottom: 20px;
-}
-
-.linkTexts h2 a {
-  color: #666;
-}
-
-.linkTexts h1 {
-  margin-bottom: 20px;
-  font-size: 34px;
-}
-
-.linkTexts h1 a {
-  text-decoration: none;
-  color: #333;
 }
 
 .linkTexts h1 a:hover {
@@ -821,11 +830,6 @@ header {
 .featuredBookText h5 {
   font-family: "Cormorant Garamond", serif;
   font-size: 20px;
-  margin-bottom: 40px;
-}
-
-.featuredBookText h1 {
-  font-size: 34px;
   margin-bottom: 40px;
 }
 
