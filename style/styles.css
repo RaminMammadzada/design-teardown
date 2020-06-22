@@ -521,10 +521,6 @@ header {
   color: #fff;
 }
 
-.personOfWeek h4 a {
-  color: #1374c8;
-}
-
 .linkTexts h2 a {
   color: #666;
 }
@@ -532,6 +528,15 @@ header {
 .linkTexts h3 a {
   text-decoration: none;
   color: #333;
+}
+
+.personOfWeek h4 {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.personOfWeek h4 a {
+  color: #1374c8;
 }
 
 .footerMenuItems a:hover {
@@ -673,15 +678,6 @@ header {
 .personOfWeek h2 {
   font-size: 25px;
   margin-bottom: 30px;
-}
-
-.personOfWeek h4 {
-  font-size: 22px;
-  margin-bottom: 30px;
-}
-
-.personOfWeek h4 a {
-  color: #1374c8;
 }
 
 .linkTexts {
