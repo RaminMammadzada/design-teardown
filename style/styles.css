@@ -210,17 +210,15 @@ header {
 .articlesContainer {
 	display: grid;	
 	grid-template-columns: repeat(auto-fit, minmax(405px,1fr));
-	grid-auto-columns: 890px;
+	
 	width:1850px;	
 	padding-top: 50px;
 	font-family: 'Balsamiq Sans', cursive;
 }
 .articlesDes {
-	
 	transition: all .2s ease-in-out;
 	display: flex;
 	flex-direction: column;
-	
 	justify-content: space-between;
 	padding:30px 30px 0 30px;
 }
@@ -228,7 +226,6 @@ header {
   width:80%;
   display: flex;
   flex-direction: column;
- 
   justify-content: space-between;
   padding:70px 70px 0 70px;
   height: 790px;
@@ -297,13 +294,15 @@ header {
 	padding-left:20px;
 }
 .smashingAdver{
+	grid-column:span 2;  /* with this the element can set a different width from the other elements */
 	display: block;
 	text-align: center;
+	border-radius: 25px;
 }
 .smashingContain {
 	background-color: #555555;
 	height: 628px;
-	width: 825px;
+	border-radius: 25px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -314,6 +313,8 @@ header {
 	color: white;
 }
 
+
+
 .smashinHeader{	
 	font-size: 58px;
 }
@@ -323,6 +324,8 @@ header {
   width: 500px;
   margin-left: 150px;
 }
+
+
 .smashBconta {
 	display: flex;
 	justify-content: center;
@@ -335,13 +338,44 @@ header {
 	background: white;
 	font-size: 35px;
 	color: #277DCC;
-	border-radius: 25px;
-	
+	border-radius: 25px;	
 }
 
-
+.smashingButton2 {
+	width: 300px;
+	height: 60px;
+	background: white;
+	font-size: 20px;
+	color: #277DCC;
+	border-radius: 25px;	
+}
 .catSmash {
   width: 245px;
+}
+
+.catTv {
+	height: 290px;
+}
+
+.smashingAd2 {
+	grid-column:span 3;  /* with this the element can set a different width from the other elements */
+	display: block;
+	text-align: center;
+	border-radius: 25px;
+}
+.smashingContain2 {
+	background-color: #555555;
+	height: 628px;
+	border-radius: 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	color: white;
+}
+
+.smashingFooter {
+	font-size: 12px;
+	font-weight: 300;
 }
 
 .articlesDes:hover .redArrow{
