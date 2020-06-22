@@ -222,8 +222,7 @@ header {
 
 .articlesContainer {
 	display: grid;	
-	grid-template-columns: repeat(auto-fit, minmax(405px,1fr));
-	
+	grid-template-columns: repeat(auto-fit, minmax(405px,1fr));	
 	width:1850px;	
 	padding-top: 50px;
 	font-family: 'Balsamiq Sans', cursive;
@@ -552,7 +551,14 @@ header {
 	font-size: 20px;
 	border-radius: 12px;
 }
-
+@media (max-width:1600px){
+	.smashingAd2 {
+		grid-column: span 3;
+	}
+	.articlesContainer2 {
+		grid-template-columns: 1fr 1fr;
+	}
+}
 @media (min-width: 1910px) {
 	.latest-articles {
 		grid-template-columns: 1fr 1fr 1fr;
@@ -818,4 +824,154 @@ header {
 	border-radius: 12px;
 	font-size: 100%;
 	text-shadow: #1F2C43;
+}
+
+.articlesContainer2 {
+	display: grid;	
+	grid-template-columns: repeat(auto-fit, minmax(509px,1fr));
+	width:1850px;	
+	padding-top: 50px;
+	font-family: 'Balsamiq Sans', cursive;
+	grid-column-gap:50px;
+	grid-row-gap: 20px;
+}
+
+.simpleAnchor {
+	text-decoration: none;
+	color: black;
+}
+
+.articlesDes2 {
+	background: white;
+	padding:30px 30px 0 30px;
+	border-radius: 20px;
+	
+}
+
+.textContainer2 {
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	
+}
+
+.js h2{
+	color: #41b14f;
+}
+
+.css h2 {
+	color:#ff5a00;
+}
+
+.web h2 {
+	color:#aa1994;
+}
+
+.textContainer2 a h2 {
+  font-size: 45px;
+}
+
+.textContainer2 p {
+	font-size: 20px;
+	line-height: 1.5em;
+}
+
+.techButton {
+	width: 70% ;
+	height: 65px;
+	color:  white;
+	font-size: 23px;
+	border-radius: 11px;
+	font-weight: bold;
+
+	
+}
+
+.greenButton {
+	background: #41b14f; ;
+}
+
+.orangeButton {
+	background: #ff5a00 ;
+}
+
+.purpleButton {
+	background: #aa1994;
+}
+
+.cat20 {
+	height: 309px;
+}
+
+.finalAdver {
+	display: block;
+	text-align: center;
+	
+}
+
+.blu {
+	
+	height: 628px;
+	border-radius: 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	color: white;
+	background: linear-gradient(180deg, rgba(27,112,186,1) 0%, rgba(68,152,217,1) 100%);
+	border-radius: 20px;
+	padding-left: 30px;
+}
+
+.blu a {
+	text-decoration: none;
+	color: white;
+}
+.smashinHeader2 {
+	font-size: 58px;
+	text-align: left;
+}
+
+.smashingPara2 {
+  font-size: 25px;
+  width: 500px;
+  text-align: left;
+}
+.formFinal {
+	text-align: left;
+	
+	
+}
+
+.formFinalContainer {
+	
+
+}
+
+.formFinal input{
+	width:60%;
+	height: 60px;	
+	border: none;
+	border-top-left-radius: 11px;
+	border-bottom-left-radius: 11px;
+	font-size: 25px;
+}
+
+.formFinal button {
+	width: 30%;
+	height: 60px;
+	background: #016888;
+	border-top-right-radius: 11px;
+	border-bottom-right-radius: 11px;
+	font-size: 25px;
+	color: white;
+	font-weight: bold;
+}
+
+.footerFinalAd {
+	margin-left: 70px;
+	background: #0067b859;
+	width: 70%;
+	line-height: 1.8em;
+	border-radius: 20px;
 }
