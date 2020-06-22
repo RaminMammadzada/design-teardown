@@ -913,3 +913,18 @@ footer {
 	background: #333;
 	transform: rotate(0deg);
 }
+
+.latestArticlesHighlight {
+	position: absolute;  
+	left: 50%;                        
+	top: 22%;                         
+	transform: translate(-50%, -50%);
+	width: 25%;
+	text-align: center;
+}
+
+.latestArticlesHighlight span {
+	background-color: #FFF;
+	padding: 5%;
+	line-height: 1.8em;
+}
