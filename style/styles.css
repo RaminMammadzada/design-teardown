@@ -1,3 +1,8 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
 .font-balmasiq {
 	font-family: 'Balsamiq Sans', cursive;
 }
@@ -13,7 +18,7 @@ em {
 
 body {
 	margin: 0;
-	max-width:1800px
+	
 }
 
 /*979797*/
@@ -196,23 +201,81 @@ header {
 	display: inline-block;
 	font-size: 12px;
 }
- .articlesContainer {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+.wholeArticlesSection {
 	background: #f6f3f2;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.articlesContainer {
+	display: grid;	
+	grid-template-columns: repeat(auto-fit, minmax(405px,1fr));
+	grid-auto-columns: 890px;
+	width:1850px;	
 	padding-top: 50px;
 	font-family: 'Balsamiq Sans', cursive;
 }
 .articlesDes {
-	width:80%;
+	
 	transition: all .2s ease-in-out;
 	display: flex;
 	flex-direction: column;
+	
 	justify-content: space-between;
+	padding:30px 30px 0 30px;
+}
+.articlesGra {
+  width:80%;
+  display: flex;
+  flex-direction: column;
+ 
+  justify-content: space-between;
+  padding:70px 70px 0 70px;
+  height: 790px;
+}
+.gramarly {
+  width: 366px;
+  height: 300px;
+  background: hsl(166, 65%, 82%);
+  border-radius: 11px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: grey;
+  
+}
+
+.gramrBlock {
+	display: block;
+	text-align: center;
+}
+
+
+
+.gramarly p {
+  display: block;
+  text-align: center;
+  width:300px;
+  margin-left: 40px;
+  font-size: 19px;
+}
+.gramarButton {
+  background: rgb(44, 216, 150);
+  width: 150px;
+  height: 40px;
+  margin-top: 30px;
+  border: none;
+  color: white;
+}
+
+.gramarlyPtop {
+	display:block;
+	text-align: center;
+	font-size: 13px;
 }
 
 .articlesDes h2 {
-	font-size:35px;
+  font-size:35px;
 }
 
 .articlesDes p {
@@ -233,9 +296,60 @@ header {
 	padding-top:-20px;
 	padding-left:20px;
 }
+.smashingAdver{
+	display: block;
+	text-align: center;
+}
+.smashingContain {
+	background-color: #555555;
+	height: 628px;
+	width: 825px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	color: white;
+}
+.smashingContain a {
+	text-decoration: none;
+	color: white;
+}
+
+.smashinHeader{	
+	font-size: 58px;
+}
+
+.smashingPara {
+  font-size: 25px;
+  width: 500px;
+  margin-left: 150px;
+}
+.smashBconta {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+.smashingButton {
+	width: 400px;
+	height: 100px;
+	background: white;
+	font-size: 35px;
+	color: #277DCC;
+	border-radius: 25px;
+	
+}
+
+
+.catSmash {
+  width: 245px;
+}
 
 .articlesDes:hover .redArrow{
-	background: #277DCC
+	background: #277DCC;
+}
+
+.articlesDes:hover .textContainer{
+	color: hsl(5, 65%, 51%); 
 }
 
 .articlesDes:hover .redArrow .fa{
@@ -254,6 +368,10 @@ header {
 	margin: 40px;
 }
 
+.gramIcon {
+	width: 300px;
+}
+
 
 
 
@@ -266,10 +384,13 @@ header {
 }
 
 .wholeMembership{
+	
 	background: #1F2C43;
+	justify-content: center;
 }
 
 .membership{
+	
 	background: #1F2C43;
 	display: flex;
 	flex-direction: row;
@@ -279,7 +400,7 @@ header {
 	height: 500px;
 	color: white;
 	font-size: 22px;
-	width: 85%;
+	width: 60%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -290,6 +411,7 @@ header {
 }
 
 .membershipImage{
+	width: 40%;
 	flex: 30%;
 	justify-content: start;
 	transform: rotate(-15deg);
@@ -373,4 +495,22 @@ header {
 	margin-left: 25px;
 	font-size: 20px;
 	border-radius: 12px;
+}
+/* @media (min-width: 1500px) {
+	.articlesContainer {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+} */
+@media (min-width: 1910px) {
+	.latest-articles {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
+@media (min-width: 2950px) {
+	.latest-articles {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+
+
+	}
 }
