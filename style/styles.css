@@ -11,6 +11,10 @@
 	font-family: 'Tangerine', cursive;
 }
 
+.font-garamond {
+	font-family: 'Cormorant Garamond', serif;
+}
+
 em {
 	font-family: 'Tangerine', cursive;
 	font-size: 2.2em;
@@ -149,8 +153,14 @@ header {
 	width:70%;
 }
 
+.profileCon {
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+}
+
 .profileImg {
-	width:60px;
+	width:75px;
 	border: 5px solid white;
 	border-radius: 11px;
 	vertical-align: middle;
@@ -496,11 +506,7 @@ header {
 	font-size: 20px;
 	border-radius: 12px;
 }
-/* @media (min-width: 1500px) {
-	.articlesContainer {
-		grid-template-columns: 1fr 1fr 1fr 1fr;
-	}
-} */
+
 @media (min-width: 1910px) {
 	.latest-articles {
 		grid-template-columns: 1fr 1fr 1fr;
@@ -527,7 +533,7 @@ header {
 	transform: scale(1.6);
 }
 
-.wholeCommunityLinks {
+.wholePersonOfWeek {
 	display: flex;
 	margin-left: auto;
 	margin-right: auto;
@@ -584,4 +590,105 @@ header {
 
 .personOfWeek h4 a {
 	color: #1374C8;
+}
+
+.communityLinks {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	color: black;
+	margin-top: 70px;
+}
+
+.linkContainer {
+	display: flex;
+	justify-content: start;
+	flex-direction: row;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	height: 300px;
+}
+
+@media (max-width: 800px) {
+	.linkContainer {
+		display: flex;
+		justify-content: start;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin-left: auto;
+		margin-right: auto;
+		width: auto;
+		height: auto;
+	}
+
+	.communityLinks {
+		display: grid;
+		grid-template-columns: 1fr;
+		color: black;
+		margin-top: 70px;
+	}
+}
+
+.linkContainer .imgContainer {
+	margin: auto;
+	margin-top: 0;
+	padding-right: 30px;
+}
+
+.linkContainer .imgContainer .profileImg {
+	border: 5px solid #D33B2B;
+}
+
+.linkTexts {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.linkTexts h2 {
+	color: #666;
+	margin-bottom: 20px;
+}
+
+.linkTexts h2 a {
+	color: #666;
+}
+
+.linkTexts h1 {
+	margin-bottom: 20px;
+	font-size: 34px;
+}
+
+.linkTexts h1 a{
+	text-decoration: none;
+	color: #333;
+}
+
+.linkTexts h1 a:hover{
+	color: #D33B2B;
+}
+
+.dateAndComment {
+	display: flex;
+	flex-direction: row;
+}
+
+.wholeCommunityLinks {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.more-content-button {
+	font-family: 'Cormorant Garamond', serif;
+	color: #333;
+	text-decoration: none;
+	border-bottom: #D33B2C 0.225em solid;
+}
+
+.more-content-button:hover {
+	font-family: 'Cormorant Garamond', serif;
+	color: #D33B2C;
 }
