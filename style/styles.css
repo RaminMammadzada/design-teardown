@@ -692,3 +692,81 @@ header {
 	font-family: 'Cormorant Garamond', serif;
 	color: #D33B2C;
 }
+
+
+
+.wholeFeaturedBook {
+	margin-top: 60px;
+	background-color: #D33B2B;
+	color: white;
+	/* text-align: left; */
+}
+
+.featuredBook {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap-reverse;
+	justify-content: space-between;
+	align-items: center;
+	height: 400px;
+	color: white;
+	width: 86%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.featuredBookText {
+	margin-top: 300px;
+	flex: 70%;
+	padding: 40px;
+}
+
+.featuredBookImage{
+	width: 20%;
+	flex: 30%;
+	justify-content: end;
+	transform: rotate(-15deg);
+	transform-origin: left bottom;
+}
+
+.featuredBookImage img {
+	transform: scale(0.4);
+}
+
+.featuredBookImage:hover{
+	transform: rotate(0deg);
+}
+
+
+.featuredBookText h5 {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+.featuredBookText h1 {
+	font-size: 34px;
+	margin-bottom: 40px;
+}
+
+.featuredBookText h3 {
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+
+.tableOfContentsButton {
+	background-color: white;
+	border: none;
+	color: #277CCC;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 26px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 12px;
+	font-size: 100%;
+	text-shadow: #1F2C43;
+}
