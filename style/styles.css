@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: yellowgreen;
+}
+
 .font-balmasiq {
   font-family: "Balsamiq Sans", cursive;
 }
@@ -199,7 +203,7 @@ header {
 
 .profileImg {
   width: 75px;
-  border: 5px solid white;
+  border: 5px solid #454545;
   border-radius: 11px;
   vertical-align: middle;
   box-shadow: 0 20px 40px 10px rgb(54, 52, 52, 0.8);
@@ -397,7 +401,7 @@ header {
   height: 100px;
   background: white;
   font-size: 35px;
-  color: #277dcc;
+  color: #757575;
   border-radius: 25px;
 }
 
@@ -406,7 +410,7 @@ header {
   height: 60px;
   background: white;
   font-size: 20px;
-  color: #277dcc;
+  color: #757575;
   border-radius: 25px;
 }
 
@@ -694,7 +698,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 260px;
+  width: 290px;
   border: 5px solid #757575;
   border-radius: 11px;
   vertical-align: middle;
@@ -846,7 +850,7 @@ header {
 .featuredBookText {
   margin-top: 400px;
   flex: 70%;
-  padding: 40px;
+  padding: 30px;
 }
 
 .featuredBookImage {
