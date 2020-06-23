@@ -344,10 +344,8 @@ header {
 .redArrow {
   text-align: center;
   width: 150px;
-  color: rgb(158, 19, 19);
+  color: rgb(19, 19, 19);
   padding-bottom: 30px;
-  padding-top: -20px;
-  padding-left: 20px;
 }
 
 /* smashing Advertising */
@@ -450,7 +448,7 @@ header {
 
 /* Articles Action Effects */
 .articlesDes:hover .redArrow {
-  background: #277dcc;
+  background: #a1a1a1;
 }
 
 .articlesDes:hover .textContainer {
@@ -582,7 +580,7 @@ header {
   cursor: pointer;
   border-radius: 12px;
   font-size: 100%;
-  text-shadow: #1f2c43;
+  text-shadow: 1px 1px #222;
 }
 
 .membershipButton:hover {
@@ -741,6 +739,7 @@ header {
   margin-left: 25px;
   font-size: 20px;
   border-radius: 12px;
+  text-shadow: 1px 1px #222;
 }
 
 .shippingNow #element5 a:hover {
@@ -889,7 +888,7 @@ header {
   cursor: pointer;
   border-radius: 12px;
   font-size: 100%;
-  text-shadow: #1f2c43;
+  text-shadow: 1px 1px #222;
 }
 
 .articlesContainer2 {
