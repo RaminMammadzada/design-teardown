@@ -14,7 +14,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/RaminMammadzada/design-teardown/eb2db86edc13c70b19b4180ad637f75b52cb2a04/index.html)
+[Live Demo Link](https://rawcdn.githack.com/RaminMammadzada/design-teardown/0885751b7dacf87a053c6e139150b36de1b99825/index.html)
 
 
 ## Getting Started
