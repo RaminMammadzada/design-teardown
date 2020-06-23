@@ -266,8 +266,8 @@ header {
 
 .articlesContainer {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(405px, 1fr));
-  width: 1850px;
+  grid-template-columns: repeat(auto-fit, minmax(365px, 1fr));
+  width: 1600px;
   padding-top: 50px;
   font-family: "Balsamiq Sans", cursive;
 }
@@ -576,7 +576,7 @@ header {
 }
 
 .membershipButton {
-  background-color: #4caf50; /* Green */
+  background-color: #A1A1A1;
   border: none;
   color: white;
   padding: 20px;
@@ -588,6 +588,11 @@ header {
   border-radius: 12px;
   font-size: 100%;
   text-shadow: #1f2c43;
+}
+
+.membershipButton:hover {
+  background-color: #919191;
+  color: rgb(210, 210, 210);
 }
 
 .shippingNow {
@@ -898,7 +903,7 @@ header {
 
 .articlesContainer2 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(509px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(549px, 1fr));
   width: 1850px;
   padding-top: 50px;
   margin: 10%;
