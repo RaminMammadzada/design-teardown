@@ -372,6 +372,7 @@ header {
   justify-content: space-around;
   color: white;
   padding: 0 8%;
+  margin-left: 6%;
 }
 
 .smashingContain a {
@@ -427,6 +428,7 @@ header {
   display: block;
   text-align: center;
   border-radius: 25px;
+  margin: 3%;
 }
 
 .smashingContain2 {
@@ -662,13 +664,12 @@ header {
 
 .shippingNowImage {
   margin-top: 170px;
-  width: 40%;
-  flex: 30%;
-  justify-content: start;
+  justify-content: center;
+  align-items: center;
 }
 
 .shippingNowImage img {
-  transform: scale(1.6);
+  transform: scale(1.4);
 }
 
 .wholePersonOfWeek {
@@ -900,6 +901,7 @@ header {
   grid-template-columns: repeat(auto-fit, minmax(509px, 1fr));
   width: 1850px;
   padding-top: 50px;
+  margin: 10%;
   font-family: "Balsamiq Sans", cursive;
   grid-column-gap: 50px;
   grid-row-gap: 20px;
