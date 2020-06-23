@@ -143,13 +143,13 @@ header {
   margin-right: 40px;
 }
 
-.latest-articles {
+.latest {
   display: grid;
   grid-template-columns: 1fr 1fr;
   color: white;
 }
 
-.latest-articles > div {
+.latest > div {
   width: 100%;
   height: 700px;
   display: flex;
@@ -186,7 +186,7 @@ header {
   margin-bottom: 40px;
 }
 
-.latest-articles > div > h1 {
+.latest > div > h1 {
   font-size: 40px;
   width: 70%;
 }
@@ -328,8 +328,9 @@ header {
   width: 300px;
 }
 
-.articlesDes h2 {
-  font-size: 35px;
+.articlesDes header {
+  background: none;
+  font-size: 30px;
 }
 
 .articlesDes p {
@@ -624,7 +625,7 @@ header {
 }
 
 @media (max-width: 750px) {
-  .latest-articles {
+  .latest {
     display: grid;
     grid-template-columns: 1fr;
   }
@@ -641,13 +642,13 @@ header {
 }
 
 @media (min-width: 1910px) {
-  .latest-articles {
+  .latest {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
 @media (min-width: 2950px) {
-  .latest-articles {
+  .latest {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
@@ -910,19 +911,22 @@ header {
   justify-content: space-around;
 }
 
-.js h2 {
+.js header {
   color: #41b14f;
+  background: none;
 }
 
-.css h2 {
+.css header {
   color: #ff5a00;
+  background: none;
 }
 
-.web h2 {
+.web header {
   color: #aa1994;
+  background: none;
 }
 
-.textContainer2 a h2 {
+.textContainer2 a header {
   font-size: 45px;
 }
 
@@ -1084,7 +1088,7 @@ footer {
   transform: rotate(0deg);
 }
 
-.latestArticlesHighlight {
+.latestHighlight {
   position: absolute;
   left: 50%;
   top: 28%;
@@ -1093,7 +1097,7 @@ footer {
   text-align: center;
 }
 
-.latestArticlesHighlight span {
+.latestHighlight span {
   background-color: #fff;
   padding: 5%;
   line-height: 1.8em;
