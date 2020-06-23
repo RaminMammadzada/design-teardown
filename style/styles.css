@@ -47,7 +47,7 @@ header {
   width: 100%;
 }
 
-.navbar ul{
+.navbar ul {
   display: flex;
   flex-direction: row;
   padding: 10px;
@@ -161,7 +161,7 @@ header {
 }
 
 .c1 {
-  background: #555
+  background: #555;
 }
 
 .c2 {
@@ -325,7 +325,7 @@ header {
 }
 
 .gramIcon {
-	width: 300px;
+  width: 300px;
 }
 
 .articlesDes h2 {
@@ -449,8 +449,8 @@ header {
 
 /* Articles Action Effects */
 .articlesDes:hover .redArrow {
-	background: #277dcc;
-  }
+  background: #277dcc;
+}
 
 .articlesDes:hover .textContainer {
   color: hsl(5, 65%, 51%);
@@ -624,11 +624,11 @@ header {
 }
 
 @media (max-width: 750px) {
-	.latest-articles {
-	  display: grid;
-	  grid-template-columns: 1fr;
-	}
+  .latest-articles {
+    display: grid;
+	grid-template-columns: 1fr;
   }
+}
 
 @media (max-width: 1600px) {
   .smashingAd2 {
