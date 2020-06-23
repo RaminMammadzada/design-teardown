@@ -3,7 +3,7 @@
 
 > Microverse Collaborative Project (Ramin and Alexes)
 
-![screenshot](./images/app_screenshot.png)
+![screenshot](./images/page_screenshot.png)
 
 Additional description about the project and its features.
 
