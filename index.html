@@ -21,29 +21,33 @@
 	<header id="header" class="">
 		<nav class="navbar">
 			<img class="main-logo" src="images/logo--full.svg" alt="">
-			<div> <button class="navbar-button" type="button">Articles</button> </div>
-			<div> <button class="navbar-button" type="button">Guides</button> </div>
-			<div> <button class="navbar-button" type="button">Books</button> </div>
-			<div> <button class="navbar-button" type="button">Events</button> </div>
-			<div> <button class="navbar-button" type="button">Membership</button> </div>
-			<div> <button class="navbar-button" type="button">Jobs</button> </div>
-			<div> <button class="navbar-button" type="button">Newsletter</button> </div>
-			<div class="more-button">
-				<button style="padding-right: 0px;" class="buIcon" type="submit">More </button><img class="menu-cat-img"
-					src="images/menu-cat.svg" alt="">
-			</div>
-			<div class='formContainer'>
-				<form>
-					<div class='inputWhite'><i class="fa fa-search fa-lg" aria-hidden="true"></i><input
-							placeholder="search articles..." class="searchForm" type='text'></div>
-				</form>
-			</div>
+			<ul>
+				<li><div><button class="navbar-button" type="button">Articles</button></div></li>
+				<li><div><button class="navbar-button" type="button">Guides</button></div></li>
+				<li><div><button class="navbar-button" type="button">Books</button></div></li>
+				<li><div><button class="navbar-button" type="button">Events</button></div></li>
+				<li><div><button class="navbar-button" type="button">Membership</button></div></li>
+				<li><div><button class="navbar-button" type="button">Jobs</button></div></li>
+				<li><div><button class="navbar-button" type="button">Newsletter</button></div></li>
+				<li>
+					<div class="more-button">
+						<button style="padding-right: 0px;" class="buIcon" type="submit">More </button><img class="menu-cat-img"
+							src="images/menu-cat.svg" alt="">
+					</div>
+				</li>
+			</ul>			
+				<div class='formContainer'>
+					<form>
+						<div class='inputWhite'><i class="fa fa-search fa-lg" aria-hidden="true"></i><input
+								placeholder="search articles..." class="searchForm" type='text'></div>
+					</form>
+				</div>			
 		</nav>
 	</header>
 	<main>
-		<h1 class="latestArticlesHighlight"><span>Don’t Miss These Latest <br> Articles</span></h1>
-		<div class="latest-articles font-balmasiq">
-			<div style="background: #555555;" class='profileCon'>
+		<h1 class="latestHighlight"><span>Don’t Miss These Latest <br> Articles</span></h1>
+		<div class="latest font-balmasiq">
+			<div class='profileCon c1'>
 				<div class='imgContainer'>
 					<div class="profileImageDiv"><img class='profileImg' src='images/kelvin-omereshone-200x200.jpg'
 							alt=''></div>
@@ -59,7 +63,7 @@
 							274</sup></span><span># Tools<sup> 229</sup></span></div>
 				<i class="fa fa-long-arrow-right fa-3x" aria-hidden="true"></i>
 			</div>
-			<div style="background: #757575;" class='profileCon'>
+			<div class='profileCon c2'>
 				<div class='imgContainer'>
 					<div class="profileImageDiv"><img class='profileImg' src='images/carmine-zaccagnino-200x200.jpg'
 							alt=''></div>
@@ -74,7 +78,7 @@
 				<div class='spanContainer'><span>Smashy Monthly Roundup<sup> 9</sup></span></div>
 				<i class="fa fa-long-arrow-right fa-3x" aria-hidden="true"></i>
 			</div>
-			<div style="background: #858585;" class='profileCon'>
+			<div class='profileCon c3'>
 				<div class='imgContainer'>
 					<div class="profileImageDiv"><img class='profileImg' src='images/chidi-orji-200x200.jpg' alt=''>
 					</div>
@@ -89,7 +93,7 @@
 							439</sup></span><span>Trends<sup> 26</sup></span></div>
 				<i class="fa fa-long-arrow-right fa-3x" aria-hidden="true"></i>
 			</div>
-			<div style="background: #959595;" class='profileCon'>
+			<div class='profileCon c4'>
 				<div class='imgContainer'>
 					<div class="profileImageDiv"><img class='profileImg' src='images/drew-mclellan-profile-pic.jpg'
 							alt=''></div>
@@ -126,7 +130,7 @@
 
 		<div class="wholeArticlesSection">
 			<div class="articlesContainer font-balmasiq">
-				<div class="articlesDes">
+				<article class="articlesDes">
 					<div class="textContainer">
 						<span>3 Days ago</span>
 						<h2>Which Video Confering Tool Are More Accesible</h2>
@@ -137,8 +141,8 @@
 					</div>
 
 					<div class="redArrow"><i class="fa fa-long-arrow-right fa-3x" aria-hidden="true"></i></div>
-				</div>
-				<div class="articlesDes">
+				</article>
+				<article class="articlesDes">
 					<div class="textContainer">
 						<span>4 Days ago</span>
 						<h2>Internatiolization In Vue W ith The Vue |18n PLugin</h2>
@@ -148,8 +152,8 @@
 					</div>
 
 					<div class="redArrow"><i class="fa fa-long-arrow-right fa-3x" aria-hidden="true"></i></div>
-				</div>
-				<div class="articlesDes">
+				</article>
+				<article class="articlesDes">
 					<div class="textContainer">
 						<span>8 Days ago</span>
 						<h2>Mirage JS Deep Dive: Undestanding Timing Response And Passthrough</h2>
@@ -163,7 +167,7 @@
 					</div>
 
 					<div class="redArrow"><i class="fa fa-long-arrow-right fa-3x" aria-hidden="true"></i></div>
-				</div>
+				</article>
 				<div class="articlesGra">
 					<div class='gramarly'>
 						<span class='gramarlyPtop'>Our friends and supporters</span>
@@ -197,7 +201,7 @@
 
 					<div class="redArrow"><i class="fa fa-long-arrow-right fa-3x" aria-hidden="true"></i></div>
 				</div>
-				<div class="articlesDes">
+				<article class="articlesDes">
 					<div class="textContainer">
 						<span>3 Days ago</span>
 						<h2>Is Your Website Stressing Out Visitors?</h2>
@@ -208,8 +212,8 @@
 						</p>
 					</div>
 					<div class="redArrow"><i class="fa fa-long-arrow-right fa-3x" aria-hidden="true"></i></div>
-				</div>
-				<div class="articlesDes">
+				</article>
+				<article class="articlesDes">
 					<div class="textContainer">
 						<span>11 Days ago</span>
 						<h2>12 Ways To Improve User Interview Questions</h2>
@@ -222,8 +226,8 @@
 					</div>
 
 					<div class="redArrow"><i class="fa fa-long-arrow-right fa-3x" aria-hidden="true"></i></div>
-				</div>
-				<div class="articlesDes">
+				</article>
+				<article class="articlesDes">
 					<div class="textContainer">
 						<span>8 Days ago</span>
 						<h2>Mirage JS Deep Dive: Undestanding Timing Response And Passthrough</h2>
@@ -235,7 +239,7 @@
 						</p>
 					</div>
 					<div class="redArrow"><i class="fa fa-long-arrow-right fa-3x" aria-hidden="true"></i></div>
-				</div>
+				</article>
 				<div class='smashingAd2'>
 					<div class='smashingContain'>
 						<div><img src="images/cat-smashing-tv-2.svg" alt="" class="catTv"></div>
@@ -251,17 +255,14 @@
 						<p class='smashingFooter'>Already have an account?<a href='#'> Sign in</a></p>
 					</div>
 				</div>
-
 			</div>
 		</div>
-
 		<div>
 			<div class="seeAllLatestArticles">
 				<a class="more-content-button" href="#">SEE ALL LATEST ARTICLES <i class="fa fa-long-arrow-right"
 						aria-hidden="true"></i></a>
 			</div>
 		</div>
-
 		<div class="wholeShippingNow">
 			<div class="shippingNow">
 				<div id="element1">JUNE 2020 • SHIPPING NOW</div>
@@ -301,7 +302,7 @@
 					</div>
 					<div class="linkTexts">
 						<h2><a href="#">Vadim Bauer</a> wrote</h2>
-						<h1><a href="#">Navigation Bar Animation</a></h1>
+						<h1><a class='simpleAnchor' href="#">Navigation Bar Animation</a></h1>
 						<div class="dateAndCOmme">
 							<span>june 22, 2020 —</span>
 							<span class=""> Who said navigation bars all need to look the same? Vadim Bauer shows a
@@ -316,7 +317,7 @@
 					</div>
 					<div class="linkTexts">
 						<h2><a href="#">Vadim Bauer</a> wrote</h2>
-						<h3><a href="#">Navigation Bar Animation</a></h3>
+						<h1><a class='simpleAnchor' href="#">Navigation Bar Animation</a></h1>
 						<div class="dateAndCOmme">
 							<span>june 22, 2020 —</span>
 							<span class=""> Who said navigation bars all need to look the same? Vadim Bauer shows a
@@ -331,7 +332,7 @@
 					</div>
 					<div class="linkTexts">
 						<h2><a href="#">Vadim Bauer</a> wrote</h2>
-						<h1><a href="#">Navigation Bar Animation</a></h1>
+						<h1><a href="#" class='simpleAnchor'>Navigation Bar Animation</a></h1>
 						<div class="dateAndCOmme">
 							<span>june 22, 2020 —</span>
 							<span class=""> Who said navigation bars all need to look the same? Vadim Bauer shows a
@@ -346,7 +347,7 @@
 					</div>
 					<div class="linkTexts">
 						<h2><a href="#">Vadim Bauer</a> wrote</h2>
-						<h1><a href="#">Navigation Bar Animation</a></h1>
+						<h1><a href="#" class='simpleAnchor'>Navigation Bar Animation</a></h1>
 						<div class="dateAndCOmme">
 							<span>june 22, 2020 —</span>
 							<span class=""> Who said navigation bars all need to look the same? Vadim Bauer shows a
@@ -381,7 +382,7 @@
 		<div class="wholeArticlesSection">
 			<div class="articlesContainer2 ">
 				<div class="articlesDes2">
-					<div class="textContainer2 js">
+					<article class="textContainer2 js">
 						<span>Smashing Guide to</span>
 						<a href='#' class='simpleAnchor'>
 							<h2>JavaScript & Frameworks</h2>
@@ -393,12 +394,12 @@
 							some tutorials for you.
 						</p>
 						<button class='techButton greenButton' type="button">Explore JavaScript & Frameworks</button>
-					</div>
+					</article>
 
 
 				</div>
 				<div class="articlesDes2">
-					<div class="textContainer2 css">
+					<article class="textContainer2 css">
 						<span>Smashing Guide to</span>
 						<a href='#' class='simpleAnchor'>
 							<h2>CSS Layaout</h2>
@@ -409,12 +410,12 @@
 						</p>
 						<button class='techButton orangeButton' type="button">Explore Css Layout</button>
 
-					</div>
+					</article>
 
 
 				</div>
 				<div class="articlesDes2">
-					<div class="textContainer2 web">
+					<article class="textContainer2 web">
 						<span>Smashing Guide to</span>
 						<a href='#' class='simpleAnchor'>
 							<h2>Mirage JS Deep Dive: Undestanding Timing Response And Passthrough</h2>
@@ -426,7 +427,7 @@
 							our application.
 						</p>
 						<button class='techButton purpleButton' type="button">Explore Perfomance</button>
-					</div>
+					</article>
 				</div>
 				<div class='articlesDes2 '>
 					<div class='finalAdver'>
@@ -442,7 +443,7 @@
 										type='button'>Meow!</button></div>
 							</form>
 							<div class='footerFinalAd'>
-								<p>Front-end, UX and design. 2× a month.
+								<p>Front-end, UX and design. 2x a month.
 									<br>You can always
 									unsubscribe with just 1 click.
 								</p>

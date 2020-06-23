@@ -25,6 +25,7 @@ body {
   margin: 0;
 }
 
+/* Navbar */
 header {
   background: #757575;
   width: 100%;
@@ -44,6 +45,17 @@ header {
   align-content: center;
   justify-content: space-between;
   width: 100%;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  list-style: none;
+  width: 65%;
 }
 
 .navbar-button {
@@ -126,17 +138,18 @@ header {
   outline: none;
 }
 
+/* Main Container */
 .formContainer {
   margin-right: 40px;
 }
 
-.latest-articles {
+.latest {
   display: grid;
   grid-template-columns: 1fr 1fr;
   color: white;
 }
 
-.latest-articles > div {
+.latest > div {
   width: 100%;
   height: 700px;
   display: flex;
@@ -145,6 +158,22 @@ header {
   align-items: start;
   padding-top: 20px;
   padding-left: 80px;
+}
+
+.c1 {
+  background: #555;
+}
+
+.c2 {
+  background: #757575;
+}
+
+.c3 {
+  background: #858585;
+}
+
+.c4 {
+  background: #959595;
 }
 
 .linkTexts h1 {
@@ -157,7 +186,7 @@ header {
   margin-bottom: 40px;
 }
 
-.latest-articles > div > h1 {
+.latest > div > h1 {
   font-size: 40px;
   width: 70%;
 }
@@ -223,6 +252,7 @@ header {
   font-size: 12px;
 }
 
+/* Articles Section */
 .wholeArticlesSection {
   background: #f6f3f2;
   display: flex;
@@ -294,8 +324,12 @@ header {
   font-size: 13px;
 }
 
+.gramIcon {
+  width: 300px;
+}
+
 .articlesDes h2 {
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .articlesDes p {
@@ -317,6 +351,7 @@ header {
   padding-left: 20px;
 }
 
+/* smashing Advertising */
 .smashingAdver {
   grid-column: span 2; /* with this the element can set a different width from the other elements */
   display: block;
@@ -405,15 +440,16 @@ header {
   font-weight: 300;
 }
 
-.articlesDes:hover .redArrow {
-  background: #277dcc;
-}
-
 .textContainer {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   margin: 40px;
+}
+
+/* Articles Action Effects */
+.articlesDes:hover .redArrow {
+  background: #277dcc;
 }
 
 .articlesDes:hover .textContainer {
@@ -429,17 +465,7 @@ header {
   transform: scale(1.05);
 }
 
-.gramIcon {
-  width: 300px;
-}
-
-@media (max-width: 750px) {
-  .latest-articles {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-}
-
+/* Membership Container */
 .wholeMembership {
   background: #1f2c43;
   justify-content: center;
@@ -597,6 +623,13 @@ header {
   padding-bottom: 30px;
 }
 
+@media (max-width: 750px) {
+  .latest {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 1600px) {
   .smashingAd2 {
     grid-column: span 3;
@@ -608,13 +641,13 @@ header {
 }
 
 @media (min-width: 1910px) {
-  .latest-articles {
+  .latest {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
 @media (min-width: 2950px) {
-  .latest-articles {
+  .latest {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
@@ -879,6 +912,7 @@ header {
 
 .js h2 {
   color: #41b14f;
+  background: none;
 }
 
 .css h2 {
@@ -1021,7 +1055,6 @@ footer {
 
 .li-copyright {
   display: inline;
-  width: 300px;
   padding: 5px;
   line-height: 2;
   margin-right: 0.5rem;
@@ -1052,16 +1085,16 @@ footer {
   transform: rotate(0deg);
 }
 
-.latestArticlesHighlight {
+.latestHighlight {
   position: absolute;
   left: 50%;
-  top: 26%;
+  top: 28%;
   transform: translate(-50%, -50%);
   width: 25%;
   text-align: center;
 }
 
-.latestArticlesHighlight span {
+.latestHighlight span {
   background-color: #fff;
   padding: 5%;
   line-height: 1.8em;
