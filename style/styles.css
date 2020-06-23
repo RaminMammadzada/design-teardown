@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: yellowgreen;
-}
-
 .font-balmasiq {
   font-family: "Balsamiq Sans", cursive;
 }
@@ -325,7 +321,6 @@ header {
 .gramarlyPtop {
   text-align: center;
   font-size: 13px;
-  
 }
 
 .gramIcon {
@@ -576,7 +571,7 @@ header {
 }
 
 .membershipButton {
-  background-color: #A1A1A1;
+  background-color: #a1a1a1;
   border: none;
   color: white;
   padding: 20px;
@@ -861,7 +856,7 @@ header {
 
 .featuredBookImage {
   width: 20%;
-  height: 600px;
+  height: 430px;
   flex: 30%;
   transform: rotate(-15deg);
   transform-origin: left bottom;
@@ -1069,7 +1064,6 @@ footer {
   line-height: 2;
   display: inline-block;
   margin-right: 2.7rem;
-  list-style-image: url(/5242cdc…/77199/images/bullet.svg);
 }
 
 .copyright {
@@ -1137,7 +1131,7 @@ footer {
   height: 100px;
   width: 200px;
   margin-left: 15%;
-  transform: scale(0.6); 
+  transform: scale(0.6);
 }
 
 .allCopyright {
