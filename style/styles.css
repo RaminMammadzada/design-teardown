@@ -328,8 +328,7 @@ header {
   width: 300px;
 }
 
-.articlesDes header {
-  background: none;
+.articlesDes h2 {
   font-size: 30px;
 }
 
@@ -911,22 +910,20 @@ header {
   justify-content: space-around;
 }
 
-.js header {
+.js h2 {
   color: #41b14f;
   background: none;
 }
 
-.css header {
+.css h2 {
   color: #ff5a00;
-  background: none;
 }
 
-.web header {
+.web h2 {
   color: #aa1994;
-  background: none;
 }
 
-.textContainer2 a header {
+.textContainer2 a h2 {
   font-size: 45px;
 }
 
