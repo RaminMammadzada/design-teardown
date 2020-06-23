@@ -597,11 +597,7 @@ header {
   align-items: center;
   padding: 100px;
   background: rgb(27, 112, 186);
-  background: linear-gradient(
-    180deg,
-    rgba(97, 97, 97, 1) 0%,
-    rgba(150, 150, 150, 1) 100%
-  );
+  background: linear-gradient(180deg, rgba(97, 97, 97, 1) 0%, rgba(150, 150, 150, 1) 100%);
 }
 
 .shippingNow #element1 {
@@ -983,11 +979,7 @@ header {
   flex-direction: column;
   justify-content: space-around;
   color: white;
-  background: linear-gradient(
-    180deg,
-    rgba(77, 77, 77, 1) 0%,
-    rgba(168, 168, 168, 1) 100%
-  );
+  background: linear-gradient(180deg, rgba(77, 77, 77, 1) 0%, rgba(168, 168, 168, 1) 100%);
   border-radius: 20px;
   padding-left: 30px;
 }
