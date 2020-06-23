@@ -281,16 +281,16 @@ header {
 }
 
 .articlesGra {
-  width: 80%;
+  width: 90%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
   padding: 70px 70px 0 70px;
   height: 790px;
 }
 
 .gramarly {
-  width: 326px;
+  width: 356px;
   height: 300px;
   background: #959595;
   border-radius: 11px;
@@ -323,9 +323,9 @@ header {
 }
 
 .gramarlyPtop {
-  display: block;
   text-align: center;
   font-size: 13px;
+  
 }
 
 .gramIcon {
