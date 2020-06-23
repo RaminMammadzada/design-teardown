@@ -25,6 +25,7 @@ body {
   margin: 0;
 }
 
+/* Navbar */
 header {
   background: #757575;
   width: 100%;
@@ -126,6 +127,7 @@ header {
   outline: none;
 }
 
+/* Main Container */
 .formContainer {
   margin-right: 40px;
 }
@@ -145,6 +147,22 @@ header {
   align-items: start;
   padding-top: 20px;
   padding-left: 80px;
+}
+
+.c1 {
+  background: #555
+}
+
+.c2 {
+  background: #757575;
+}
+
+.c3 {
+  background: #858585;
+}
+
+.c4 {
+  background: #959595;
 }
 
 .linkTexts h1 {
@@ -223,6 +241,7 @@ header {
   font-size: 12px;
 }
 
+/* Articles Section */
 .wholeArticlesSection {
   background: #f6f3f2;
   display: flex;
@@ -294,6 +313,10 @@ header {
   font-size: 13px;
 }
 
+.gramIcon {
+	width: 300px;
+}
+
 .articlesDes h2 {
   font-size: 35px;
 }
@@ -317,6 +340,7 @@ header {
   padding-left: 20px;
 }
 
+/* smashing Advertising */
 .smashingAdver {
   grid-column: span 2; /* with this the element can set a different width from the other elements */
   display: block;
@@ -405,16 +429,17 @@ header {
   font-weight: 300;
 }
 
-.articlesDes:hover .redArrow {
-  background: #277dcc;
-}
-
 .textContainer {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   margin: 40px;
 }
+
+/* Articles Action Effects */
+.articlesDes:hover .redArrow {
+	background: #277dcc;
+  }
 
 .articlesDes:hover .textContainer {
   color: hsl(5, 65%, 51%);
@@ -429,17 +454,7 @@ header {
   transform: scale(1.05);
 }
 
-.gramIcon {
-  width: 300px;
-}
-
-@media (max-width: 750px) {
-  .latest-articles {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-}
-
+/* Membership Container */
 .wholeMembership {
   background: #1f2c43;
   justify-content: center;
@@ -596,6 +611,13 @@ header {
   text-align: center;
   padding-bottom: 30px;
 }
+
+@media (max-width: 750px) {
+	.latest-articles {
+	  display: grid;
+	  grid-template-columns: 1fr;
+	}
+  }
 
 @media (max-width: 1600px) {
   .smashingAd2 {
@@ -1021,7 +1043,6 @@ footer {
 
 .li-copyright {
   display: inline;
-  width: 300px;
   padding: 5px;
   line-height: 2;
   margin-right: 0.5rem;
@@ -1055,7 +1076,7 @@ footer {
 .latestArticlesHighlight {
   position: absolute;
   left: 50%;
-  top: 26%;
+  top: 28%;
   transform: translate(-50%, -50%);
   width: 25%;
   text-align: center;
