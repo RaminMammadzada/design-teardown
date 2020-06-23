@@ -288,12 +288,12 @@ header {
 .gramarly {
   width: 326px;
   height: 300px;
-  background: hsl(166, 65%, 82%);
+  background: #959595;
   border-radius: 11px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  color: grey;
+  color: white;
 }
 
 .gramrBlock {
@@ -310,7 +310,7 @@ header {
 }
 
 .gramarButton {
-  background: rgb(44, 216, 150);
+  background: #A5A5A5;
   width: 150px;
   height: 40px;
   margin-top: 30px;
@@ -453,7 +453,7 @@ header {
 }
 
 .articlesDes:hover .textContainer {
-  color: hsl(5, 65%, 51%);
+  color: #757575;
 }
 
 .articlesDes:hover .redArrow .fa {
@@ -467,12 +467,12 @@ header {
 
 /* Membership Container */
 .wholeMembership {
-  background: #1f2c43;
+  background: #757575;
   justify-content: center;
 }
 
 .membership {
-  background: #1f2c43;
+  background: #757575;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap-reverse;
@@ -591,7 +591,7 @@ header {
   align-items: center;
   padding: 100px;
   background: rgb(27, 112, 186);
-  background: linear-gradient(180deg, rgba(27, 112, 186, 1) 0%, rgba(68, 152, 217, 1) 100%);
+  background: linear-gradient(180deg, rgba(97, 97, 97, 1) 0%, rgba(150, 150, 150, 1) 100%);
 }
 
 .shippingNow #element1 {
@@ -691,7 +691,7 @@ header {
   flex-direction: row;
   justify-content: center;
   width: 260px;
-  border: 5px solid #d33b2b;
+  border: 5px solid #757575;
   border-radius: 11px;
   vertical-align: middle;
   box-shadow: 0 20px 40px 10px rgb(54, 52, 52, 0.8);
@@ -725,17 +725,22 @@ header {
 }
 
 .linkTexts h1 a:hover {
-  color: #d33b2b;
+  color: #757575;
 }
 
 .shippingNow #element5 a {
   background: #fff;
-  color: #277dcc;
+  color: #757575;
   padding: 30px;
   margin-right: 25px;
   margin-left: 25px;
   font-size: 20px;
   border-radius: 12px;
+}
+
+.shippingNow #element5 a:hover {
+  background: rgb(208, 208, 208);
+  color: #151515;
 }
 
 .communityLinks {
@@ -782,7 +787,7 @@ header {
 }
 
 .linkContainer .imgContainer .profileImg {
-  border: 5px solid #d33b2b;
+  border: 5px solid #747474;
 }
 
 .dateAndComment {
@@ -802,7 +807,7 @@ header {
   font-family: "Cormorant Garamond", serif;
   color: #333;
   text-decoration: none;
-  border-bottom: #d33b2c 0.225em solid;
+  border-bottom: #757575 0.225em solid;
 }
 
 .seeAllLatestArticles {
@@ -814,12 +819,12 @@ header {
 
 .more-content-button:hover {
   font-family: "Cormorant Garamond", serif;
-  color: #d33b2c;
+  color: #757575;
 }
 
 .wholeFeaturedBook {
   margin-top: 60px;
-  background-color: #d33b2b;
+  background-color: #757575;
   color: white;
 }
 
@@ -870,7 +875,7 @@ header {
 .tableOfContentsButton {
   background-color: white;
   border: none;
-  color: #277ccc;
+  color: #757575;
   padding: 20px;
   text-align: center;
   text-decoration: none;
@@ -911,16 +916,16 @@ header {
 }
 
 .js h2 {
-  color: #41b14f;
+  color: #A5A5A5;
   background: none;
 }
 
 .css h2 {
-  color: #ff5a00;
+  color: #858585;
 }
 
 .web h2 {
-  color: #aa1994;
+  color: #353535;
 }
 
 .textContainer2 a h2 {
@@ -942,15 +947,15 @@ header {
 }
 
 .greenButton {
-  background: #41b14f;
+  background: #393939;
 }
 
 .orangeButton {
-  background: #ff5a00;
+  background: #919191;
 }
 
 .purpleButton {
-  background: #aa1994;
+  background: #A8A8A8;
 }
 
 .cat20 {
@@ -968,7 +973,7 @@ header {
   flex-direction: column;
   justify-content: space-around;
   color: white;
-  background: linear-gradient(180deg, rgba(27, 112, 186, 1) 0%, rgba(68, 152, 217, 1) 100%);
+  background: linear-gradient(180deg, rgba(77, 77, 77, 1) 0%, rgba(168, 168, 168, 1) 100%);
   border-radius: 20px;
   padding-left: 30px;
 }
@@ -1000,7 +1005,7 @@ header {
 .formFinal button {
   width: 30%;
   height: 60px;
-  background: #016888;
+  background: #757575;
   border-top-right-radius: 11px;
   border-bottom-right-radius: 11px;
   font-size: 25px;
@@ -1017,7 +1022,7 @@ header {
 }
 
 footer {
-  background-color: #d33b2b;
+  background-color: #757575;
   color: white;
   text-align: center;
   width: auto;
@@ -1071,7 +1076,7 @@ footer {
   position: fixed;
   bottom: 0;
   right: 0;
-  background: #885b56;
+  background: #F5F5F5;
   transform: rotate(-15deg);
   transform-origin: left bottom;
   border-radius: 12px;
