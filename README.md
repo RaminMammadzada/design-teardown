@@ -3,7 +3,7 @@
 
 > Microverse Collaborative Project (Ramin and Alexes)
 
-![screenshot](img/project.png)
+![screenshot](./images/app_screenshot.png)
 
 Additional description about the project and its features.
 
@@ -14,25 +14,21 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link]()s
+[Live Demo Link](https://rawcdn.githack.com/RaminMammadzada/design-teardown/eb2db86edc13c70b19b4180ad637f75b52cb2a04/index.html)
 
 
 ## Getting Started
 
 **Navigation bar**
 - Go to [the NYT article in question ](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0) and have a look around. The form isn’t exceptionally complicat
-This project is a Clone of this webpage.
+This project consists of building a heatmap of the [Smashing magazine](https://www.smashingmagazine.com/) website
 We have a cloned webpage built with following features:
 
-1. SSubscribe and Login button
-2. Logo display of The New York Times
-3. Navbar including six element
-4. Images and video embeded
-5. Two side bars
-6. There are also link to privacy, Terms of Use and more
-7. Space and Astronomy - Section
-8. Editors’ Picks - Section
-9. Complicated footer
+In this project:
+- The header, body and footer parts are created.
+- Used float, flex and grid.
+- Used shadow and gradients.
+- HTML and CSS animation features are used.
 
 
 To get a local copy  and to set it up and running follow these simple example steps.
@@ -53,11 +49,11 @@ To get a local copy  and to set it up and running follow these simple example st
 - Twitter: [@raminmammadzada](https://twitter.com/raminmammadzada)
 - Linkedin: [raminmammadzada](https://linkedin.com/raminmammadzada) 
 
-👤 **Umair Arshad**
+👤 **Pablo Alexis Zambrano Coral**
 
-- Github: [@umairarshadbutt](https://github.com/umairarshadbutt)
-- Twitter: [@its_UmairArshad](https://twitter.com/its_UmairArshad)
-- Linkedin: [umair-arshad-butt](https://www.linkedin.com/in/umair-arshad-butt/)
+- Github: [@Alexoid1](https://github.com/Alexoid1)
+- Twitter: [@pablo_acz](https://twitter.com/pablo_acz)
+- Linkedin: [linkedin](https://www.linkedin.com/in/pablo-alexis-zambrano-coral-7a614a189/)
 
 
 
