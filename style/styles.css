@@ -47,6 +47,17 @@ header {
   width: 100%;
 }
 
+.navbar ul{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  list-style: none;
+  width: 65%;
+}
+
 .navbar-button {
   text-align: center;
   font-size: 20px;
