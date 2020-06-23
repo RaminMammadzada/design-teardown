@@ -626,7 +626,7 @@ header {
 @media (max-width: 750px) {
   .latest-articles {
     display: grid;
-	grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
 }
 
