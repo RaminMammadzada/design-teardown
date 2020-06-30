@@ -48,6 +48,7 @@ To get a local copy  and to set it up and running follow these simple example st
 - Github: [@raminmammadzada](https://github.com/raminmammadzada)
 - Twitter: [@raminmammadzada](https://twitter.com/raminmammadzada)
 - Linkedin: [raminmammadzada](https://linkedin.com/raminmammadzada) 
+- Email: [raminmammadzadaiu@gmail.com](mailto:raminmammadzadaiu@gmail.com?subject=[GitHub]%20Source%20Han%20Sans)
 
 👤 **Pablo Alexis Zambrano Coral**
 
